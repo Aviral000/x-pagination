@@ -66,7 +66,6 @@ export default function App() {
         <button
           type='button'
           onClick={nextToggle}
-          disabled={pageNo === Math.ceil(users.length / userPerPage)}
         >
           Next
         </button>
