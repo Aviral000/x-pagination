@@ -59,7 +59,7 @@ export default function App() {
         </tbody>
       </table>
       <div className='pagination'>
-        <button type='button' onClick={previousToggle} disabled={pageNo === 1}>
+        <button type='button' onClick={previousToggle}>
           Previous
         </button>
         <p>{pageNo}</p>
